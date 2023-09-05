@@ -1,0 +1,25 @@
+.mat-mdc-form-field {
+    margin-top: 16px;
+}
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-label {
+    padding: 16px 0 0 0;
+    text-align: end;
+    width: 100%;
+}
+
+.step-label {
+    font-size: 14px;
+    color: #161616;
+    margin-bottom: 4px;
+}
+
+.add-info {
+    font-size: 12px;
+    color: #161616;
+    text-align: start;
+}
+
+.back-next-buttons {
+    display: flex;
+}

@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+html, body { height: 100%; }
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    padding-left: 10px;
+}
+
+
+.mat-step-icon {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.mat-step-icon {
+    background-color: #E0E0E0 !important;
+    color: #161616 !important;
+}
+
+.mat-step-icon-selected {
+    background-color: #1B322F !important;
+    color: #FFFFFF !important;
+}
+
+.mat-stepper-horizontal-line {
+    border-top-width: 2px !important;
+    /* border-top-color: #E0E0E0 !important; */
+}
+
+.mat-stepper-horizontal-line:first-child{
+    border-top-color:red !important
+  }
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:last-child)::after {
+    border-top-width: 2px !important;
+    width: 120px !important;
+}
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:not(:first-child)::before {
+    border-top-width: 2px !important;
+    width: calc(50%-120px)
+}
+
+/* .mat-horizontal-stepper-header {
+    display: block !important;
+} */
+
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header .mat-step-label {
+    padding-top: 0px !important;
+}
+
+.mat-step-icon-state-edit {
+    background-color: #1B322F !important;
+    color: #FFFFFF !important;
+}
+
+.mat-step-header{
+    background-color: #fff !important;
+}
